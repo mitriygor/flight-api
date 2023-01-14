@@ -160,3 +160,4 @@ By default, the calculation-endpoint, without the output-parameter specification
 * Adding virtualization layer — i.e. Docker — for developing purposes;
 * Replacing all possible magic numbers and magic strings with descriptive constants;
 * Properly renaming variables and functions — presently their names are inconsistent;
+* Adding handlers for POST-requests in order to record requests to a DB (e.g. PostgreSQL) — it would make the API more interesting. Furthermore, it will give an opportunity to work with data-layer, to implement HEX-architecture, to create models, etc.;
