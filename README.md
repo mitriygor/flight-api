@@ -1,3 +1,5 @@
+## Commands
+
 To run the API:
 
 ```
@@ -9,6 +11,8 @@ To run tests:
 ```
 go test ./cmd/api/
 ```
+
+## Requests
 
 Examples of GET-requests and their responses:
 <br></br>
@@ -141,7 +145,7 @@ By default, the calculation-endpoint, without the output-parameter specification
 
 <br></br>
 
-### Possible improvements:
+## Improvements:
 
 * Making API more robust by adding additional validation for requests parameters, e.g.:
     * if there is proper amount of stops — i.e. it is supposed to be even;
